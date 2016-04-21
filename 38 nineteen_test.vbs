@@ -1,7 +1,6 @@
 Option Explicit
 
 Dim i
-Dim Result
 
 '1‚©‚ç50‚Ü‚Å‚Ì”š‚ğ•\¦‚·‚éB
 For i = 1 To 50
@@ -29,11 +28,10 @@ For i = 1 To 50
     '......
     
 
-        Result = i Mod 3
+    If IsMulOf3(i) = True Then
+        WScript.StdOut.WriteLine i & " "
+    End If
 
-If Result = 3 Then
-        WScript.StdOut.Write i & " "
-End If
 
 Next
 
