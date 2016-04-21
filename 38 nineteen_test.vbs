@@ -29,13 +29,22 @@ For i = 1 To 50
     
 
     If IsMulOf3(i) = True Then
-        WScript.StdOut.WriteLine i & " "
+            'WScript.StdOut.WriteLine i & ""
+            WScript.StdOut.WriteLine i & " Fizz "
     End If
-
 
 Next
 
-WScript.StdOut.WriteLine i & " ------- "
+
+
+
+
+
+
+
+
+
+'WScript.StdOut.WriteLine i & " ------- "
 
 
 '3ÇÃî{êîÇ≈Ç†ÇÍÇŒ True Çï‘ÇµÇ‹Ç∑ÅB
