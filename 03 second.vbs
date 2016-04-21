@@ -1,0 +1,1 @@
+MsgBox "Hellow World! ", vbInformation, WScript.ScriptName

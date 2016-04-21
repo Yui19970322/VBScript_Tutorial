@@ -1,0 +1,7 @@
+Option Explicit
+
+Dim i
+
+For i = 1 To 5
+	MsgBox i & " âÒñ⁄Ç≈Ç∑ÅB", vbInformation, WScript.ScriptName
+Next
