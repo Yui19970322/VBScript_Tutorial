@@ -28,20 +28,21 @@ For i = 1 To 50
     '......
     
 
-    If IsMulOf3(i) = True Then
-            'WScript.StdOut.WriteLine i & ""
-            WScript.StdOut.WriteLine i & " Fizz "
-    End If
+If IsMulOf15(i) = True Then
+'WScript.StdOut.WriteLine i & ""
+	WScript.StdOut.WriteLine i & " FizzBuzz "
 
+ElseIf IsMulOf5(i) = True Then
+	WScript.StdOut.WriteLine i & " Buzz "
+
+ElseIf IsMulOf3(i) = True Then
+	WScript.StdOut.WriteLine i & " Fizz "
+
+Else
+	WScript.StdOut.WriteLine i & " ------- "
+
+End If
 Next
-
-
-
-
-
-
-
-
 
 
 'WScript.StdOut.WriteLine i & " ------- "
